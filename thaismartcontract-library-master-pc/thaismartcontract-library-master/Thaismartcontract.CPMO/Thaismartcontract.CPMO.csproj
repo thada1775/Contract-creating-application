@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+    <AssemblyVersion>2019.8.18.0</AssemblyVersion>
+    <FileVersion>2019.8.18.0</FileVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Thaismartcontract.CPMO</PackageId>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>Thaismartcontract API for Patient Consent</PackageTags>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net461|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="nbitcoin" Version="4.1.1.98" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Thaismartcontract.API\Thaismartcontract.API.csproj" />
+    <ProjectReference Include="..\Thaismartcontract.Storage\Thaismartcontract.Storage.csproj" />
+  </ItemGroup>
+
+</Project>

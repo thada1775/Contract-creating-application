@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+    <AssemblyName>Thaismartcontract.WalletService</AssemblyName>
+    <RootNamespace>Thaismartcontract.WalletService</RootNamespace>
+    <AssemblyVersion>2019.8.18.21</AssemblyVersion>
+    <FileVersion>2019.8.18.21</FileVersion>
+    <LangVersion>latest</LangVersion>
+    <Version>1.0.3</Version>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PackageId>Thaismartcontract.WalletService</PackageId>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>Thaismartcontract API for E-Wallet system</PackageTags>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>    
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="litedb" Version="4.1.4" />
+    <PackageReference Include="NBitcoin" Version="4.1.1.98" />
+    <PackageReference Include="ZXing.Net.Mobile" Version="2.4.1" />
+    <PackageReference Include="ZXing.Net.Mobile.Forms" Version="2.4.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Thaismartcontract.API\Thaismartcontract.API.csproj" />
+  </ItemGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="rem dotfuscatorcli /in:+$(TargetPath) /out:$(TargetDir) /rename:on /keep:hierarchy /smart:on" />
+  </Target>
+</Project>

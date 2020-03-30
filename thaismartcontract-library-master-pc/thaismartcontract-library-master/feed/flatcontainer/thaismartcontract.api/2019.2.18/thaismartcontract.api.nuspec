@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Thaismartcontract.API</id>
+    <version>2019.2.18</version>
+    <authors>Thaismartcontract.API</authors>
+    <owners>Thaismartcontract.API</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <tags>Thaismartcontract API for Insight based block explorer</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="nbitcoin" version="4.1.1.80" exclude="Build,Analyzers" />
+        <dependency id="newtonsoft.json" version="12.0.1" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="nbitcoin" version="4.1.1.80" exclude="Build,Analyzers" />
+        <dependency id="newtonsoft.json" version="12.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

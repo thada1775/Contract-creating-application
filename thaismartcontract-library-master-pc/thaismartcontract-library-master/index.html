@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>วิธีการเพิ่ม Nuget</title>
+</head>
+
+<body>
+
+<p>สร้างไฟล์ <b>Nuget.config</b> ใน Solution ของคุณ และวางข้อความต่อไปนี้ลงไป</p>
+
+<p>&nbsp;</p>
+
+<p>&lt;?xml
+version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;<br/>
+&lt;configuration&gt;<br/>
+&nbsp; &lt;packageSources&gt;<br/>
+&nbsp;&nbsp;&nbsp; &lt;add key=&quot;Thaismartcontract Repository&quot; value=&quot;https://nuget.zarimpun.com/index.json&quot; /&gt;<br/>
+&nbsp; &lt;/packageSources&gt;&nbsp;<br/>
+&lt;/configuration&gt;<br/>
+</p>
+
+<br />
+<br />
+<br />
+<p><b>จากนั้นไปที่เมนู Tools &gt; Nuget Package Manager &gt; Package Manger Console</b></p>
+<p> แล้วพิมพ์ว่า Install-Package <b>ตามด้วยชื่อแพ็คเกจ</b></p>
+
+<br />
+<br />
+<p>Package ที่มี</p>
+<ol>
+<li>Thaismartcontract.API</li>
+<li>Thaismartcontract.WalletService</li>
+<li>Thaismartcontract.CPMO</li>
+<li>Thaismartcontract.Storage</li>
+
+</body>
+
+</html>

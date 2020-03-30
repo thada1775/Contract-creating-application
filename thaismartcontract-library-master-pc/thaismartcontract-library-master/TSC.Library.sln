@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{C8895B78-4C7E-4DD9-8F48-19FDC7EBE785}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thaismartcontract.API", "Thaismartcontract.API\Thaismartcontract.API.csproj", "{50A68DEE-7DE0-4380-874E-CC4959B682FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thaismartcontract.WalletService", "Thaismartcontract.WalletService\Thaismartcontract.WalletService.csproj", "{7CF9CA4E-C47D-4A40-9E0D-613E2B1495CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thaismartcontract.DocumentService", "Thaismartcontract.DocumentService\Thaismartcontract.DocumentService.csproj", "{2FB4E00B-1D26-4BD0-9B02-F7DECCF93010}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thaismartcontract.CPMO", "Thaismartcontract.CPMO\Thaismartcontract.CPMO.csproj", "{26848085-FD8C-4C1E-BFDC-FDC2C9F6E0BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Thaismartcontract.Storage", "Thaismartcontract.Storage\Thaismartcontract.Storage.csproj", "{68209AAD-F19D-4895-BCEA-614484712798}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8895B78-4C7E-4DD9-8F48-19FDC7EBE785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8895B78-4C7E-4DD9-8F48-19FDC7EBE785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8895B78-4C7E-4DD9-8F48-19FDC7EBE785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8895B78-4C7E-4DD9-8F48-19FDC7EBE785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A68DEE-7DE0-4380-874E-CC4959B682FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A68DEE-7DE0-4380-874E-CC4959B682FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A68DEE-7DE0-4380-874E-CC4959B682FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A68DEE-7DE0-4380-874E-CC4959B682FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF9CA4E-C47D-4A40-9E0D-613E2B1495CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF9CA4E-C47D-4A40-9E0D-613E2B1495CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF9CA4E-C47D-4A40-9E0D-613E2B1495CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF9CA4E-C47D-4A40-9E0D-613E2B1495CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FB4E00B-1D26-4BD0-9B02-F7DECCF93010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FB4E00B-1D26-4BD0-9B02-F7DECCF93010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FB4E00B-1D26-4BD0-9B02-F7DECCF93010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FB4E00B-1D26-4BD0-9B02-F7DECCF93010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26848085-FD8C-4C1E-BFDC-FDC2C9F6E0BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26848085-FD8C-4C1E-BFDC-FDC2C9F6E0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26848085-FD8C-4C1E-BFDC-FDC2C9F6E0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26848085-FD8C-4C1E-BFDC-FDC2C9F6E0BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68209AAD-F19D-4895-BCEA-614484712798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68209AAD-F19D-4895-BCEA-614484712798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68209AAD-F19D-4895-BCEA-614484712798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68209AAD-F19D-4895-BCEA-614484712798}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39C2BEFC-D46E-4D1B-9671-5C7DA2DD1980}
+	EndGlobalSection
+EndGlobal

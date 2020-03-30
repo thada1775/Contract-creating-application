@@ -1,0 +1,12 @@
+{
+  "username": "Utharn Buranasaksee",
+  "useremail": "utharn.b@rmutsb.ac.th",
+  "sources": [
+    {
+      "name": "myAzureFeed",
+      "type": "azure",
+      "container": "ewallet",
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=thaismartcontract;AccountKey=gcfsLM/Tj1LcHQH8FalLAGcDjZQRRhJPP4Ri4o0d729fjSFp8Fh51mqzvPsG5PS8XUiKsa7SjLLxMzP9MZm6cw==;EndpointSuffix=core.windows.net"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ContractCreate.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="API1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://explorer.thaismartcontract.com/</Value>
+    </Setting>
+    <Setting Name="API2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://explorer-1.us.digibyteservers.io/</Value>
+    </Setting>
+    <Setting Name="API3" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://insight.digibyte.host/</Value>
+    </Setting>
+    <Setting Name="minBalance" Type="System.Decimal" Scope="Application">
+      <Value Profile="(Default)">0.00039</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

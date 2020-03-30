@@ -1,0 +1,12 @@
+{
+  "username": "Utharn Buranasaksee",
+  "useremail": "utharn.b@rmutsb.ac.th",
+  "sources": [
+    {
+      "name": "myLocalFeed",
+      "type": "local",
+      "path": "C:\\projects\\TSC.Library\\feed",
+      "baseURI": "https://nuget.zarimpun.com/"
+    }
+  ]
+}
