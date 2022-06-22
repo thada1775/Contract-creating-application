@@ -22,7 +22,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="2.2.0" />
     <PackageReference Include="nbitcoin" Version="4.1.1.98" />
-    <PackageReference Include="newtonsoft.json" Version="12.0.1" />
+    <PackageReference Include="newtonsoft.json" Version="13.0.1" />
     <PackageReference Include="ZXing.Net.Mobile" Version="2.4.1" />
     <PackageReference Include="ZXing.Net.Mobile.Forms" Version="2.4.1" />
   </ItemGroup>
