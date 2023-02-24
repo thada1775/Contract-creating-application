@@ -17,7 +17,7 @@
   <ItemGroup>
     <PackageReference Include="bouncycastle.netcore" Version="1.8.3" />
     <PackageReference Include="edgejs" Version="9.3.4" />
-    <PackageReference Include="litedb" Version="4.1.4" />
+    <PackageReference Include="litedb" Version="5.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.NodeServices" Version="2.1.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.1.1" />
     <PackageReference Include="nbitcoin" Version="4.1.1.98" />
